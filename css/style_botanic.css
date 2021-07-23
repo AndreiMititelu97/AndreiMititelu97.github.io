@@ -1,6 +1,6 @@
 body{
-    background-color:#79b8ff;
-    color: #665544;
+    background-color:#d4d0c6;
+    color: #665544
 }
 .continut{
     margin:0;
@@ -22,9 +22,8 @@ body{
     
 }
 .header{
-    background-color: #dbedff;
+    background-color: #e7e3d8;
     margin-left: 30px;
-    border-radius: 20px;
 }
 .piesa{
     width:290px;
@@ -37,22 +36,13 @@ figure {
     display: block;
     width: 260px;
     height: 200px;
-    background-color: #FA8072;
+    background-color: #e7e3d8;
     padding: 9px;
     text-align: left;
-    border-radius: 10px;
 }
 figure img{
     botder:1px solid #d6d6d6;
     width: 260px;
     height: 180px;
-}
-.piesa a{
-    text-decoration: none;
-    color:lightcyan;
-    font-size: 20px;
-    font-family: Verdana;
-    font-weight: 500;
-    
 }
 
