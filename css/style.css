@@ -119,15 +119,6 @@ img.top{
     text-decoration: none;
     
 }
-#test{
-    background-color:#49c5b6;
-    border-radius:15%;
-    padding:11px;
-    
-}
-#test:hover{
-    padding:15px;
-}
 .buton:hover{
     
     padding:15px;
