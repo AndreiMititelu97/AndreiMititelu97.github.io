@@ -3,10 +3,9 @@ body{
     color: #665544
 }
 .continut{
-    margin:0;
     width:970px;
     margin:0 auto;
-    
+    border-radius:10px;
 }
 .header h1 {
     margin:40px 0px 20px 0;
