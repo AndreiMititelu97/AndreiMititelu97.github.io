@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="css/css_survey.css"
+         <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+
+    </head>
+    <body>
+        
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve our services<p/>
+            <div id="continut">
+                <div id="formular">
+                    <form id="survey-form">
+                        <label id="name-label">Name:</label><br>
+                        <input id="name" type="text" name="name" required placeholder="Enter name:">
+                        <br>
+
+                        <label id="email-label">Email:</label><br>
+                        <input id="email" type="email" name="email" required placeholder="Enter email:">
+                        <br>
+
+                        <label id="number-label">Age:</label> <br>
+                        <input id="number" type="number" name="age" min="1" max="130" placeholder="Enter your age:">
+                        <br><br>
+
+                        <label for="dropdown">Marital status:</label>
+                        <select id="dropdown" name="dropdown">
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                            <option value="divorced">Divorced</option>
+                            <option value="widowed">Widowed</option>
+                        </select>
+                        <br><br>
+                        Gender:<br>
+                        <label for="male">Male</label>
+                        <input type="radio"  id="optiune1" name="gender" value="male">
+
+                        <label for="female">Female</label>
+                        <input type="radio" id="optiune2" name="gender" value="female">
+
+                        <label for="other">Other</label>
+                        <input type="radio" id="optiune3" name="gender" value="other">
+                        
+                        <br><br>
+                        Where did you hear about us?<br>
+                         <div id="checkbox">
+                        <input type="checkbox"  name="var" value="optiune1">
+                        <label for="optiune1">Friends</label>
+                        <br>
+
+                        <input type="checkbox"  name="var" value="optiune2">
+                        <label for="optiune2">Work</label>
+                        <br>
+
+                        <input type="checkbox"  name="var" value="optiune3">
+                        <label for="optiune3">Ads</label>
+                        <br>
+
+                        <input type="checkbox"  name="var" value="optiune4">
+                        <label for="optiune4">Internet  </label>
+                        <br>
+
+                        <input type="checkbox"  name="var" value="optiune5">
+                        <label for="optiune5">Newspaper</label>
+                        <br><br>
+                            </div>
+                        <label for="comentariu">Any sugestions?</label><br>
+                        <textarea name="comentariu">Enter your comment here..</textarea>
+                        <br><br>
+
+                        <input id="submit" type="submit" value="Trimite">
+
+
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>

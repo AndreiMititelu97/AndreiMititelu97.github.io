@@ -1,0 +1,28 @@
+body{
+    
+    font-family: "Computer Modern Sans", sans-serif;
+    font-size: 25px;
+    background-color:#CD853F;
+    color:white;
+}
+#continut{
+    margin:0 auto;
+    width:600px;
+    background-color:#A0522D;
+    border-radius:15px;
+    padding:20px;
+    
+}
+h1,p {
+    text-align: center;
+}
+#formular{
+    text-align: center;
+}
+#checkbox{
+    width:160px;
+    margin:auto;
+    text-align: justify;
+    padding:10px;
+}
+
